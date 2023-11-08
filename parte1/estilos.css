@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-align: center;
+    
+    
+}
+body{
+    background-image: url(imagenes/pngtree-radiant-cosmic-art-3d-space-galaxy-illustration-in-4k-uhd-image_3698440.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section
+{
+    width: 90%;
+  
+    padding: 20px;
+    color: white;
+    margin: auto;
+    font-family:cursive;
+
+    text-align: center;
+    font-size: 30px;
+}
+table
+{
+    margin: auto;
+    
+}
+table th:nth-child(even)
+{
+    background-color:#6FAAFF;
+    color: white ;
+}
+table tr,th:nth-child(even)
+{
+    background-color:#6FAAFF;
+    border-radius: 2px;
+    color: white ;
+}
+table td,tr,th:nth-child(even)
+{
+    background-color: rgb(79, 45, 92);
+    font-family:cursive;
+    border-radius: 2px;
+    color:#B6C8D0;
+}
+.form-search input{
+    font-size: 20px;
+
+}
+.form-search button{
+    font-size: 20px;
+
+}
+label{
+    font-size: 20px;
+    color:#B6C8D0;
+}

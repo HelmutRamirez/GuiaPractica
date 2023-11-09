@@ -14,14 +14,16 @@
           <section>Muestra de todos los productos</section>
  
          <div class="main-contet">
-                    <form class="form-search" method="get" action="muestraUsu.php">
-                        <input type="search" name= "search" placeholder="Buscar..">
+                    <form class="form-search" method="get" action="busquedaPro.php">
+                        <input type="text" name= "Buscar" placeholder="Buscar..">
                         <button type="submit">Enviar</button>
-                        <i class="fa fa-search"></i>
+                       
 
                     </form>
+                    <br>
+                    <br>
             </div>
-           ptracticas desarrolo web
+           
             <?php
             require("conexionBD.php");
             $resultado = mysqli_query($conexion, "SELECT * FROM productos ");

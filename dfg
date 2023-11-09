@@ -1,0 +1,42 @@
+[33mcommit 96f27dc1601b329964d10f0604c2217c04c6ff02[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Helmut Romero <helmutramirez8@gmail.com>
+Date:   Wed Nov 8 20:41:48 2023 -0500
+
+    Organizacion en carpetas
+
+[33mcommit 89c0fe6d38ab1a3ba702d7677742cef5e27078cf[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Helmut Romero <helmutramirez8@gmail.com>
+Date:   Wed Nov 8 20:39:48 2023 -0500
+
+    Arreglo de busqueda
+
+[33mcommit 05328d1f4314853c8f89fac0b07d27a2ebd6b7a2[m
+Author: Helmut Romero <helmutramirez8@gmail.com>
+Date:   Wed Nov 8 19:45:15 2023 -0500
+
+    arreglo de formulario
+
+[33mcommit 09185ed12ab64276e4adf8e1797d6155e8e5bf4e[m
+Merge: 6698d29 d324eae
+Author: Helmut Romero <helmutramirez8@gmail.com>
+Date:   Wed Nov 8 19:23:06 2023 -0500
+
+    Merge branch 'pruebas'
+
+[33mcommit 6698d293900cbe9077a523950ef8e90753b2db2c[m
+Author: Helmut Romero <helmutramirez8@gmail.com>
+Date:   Wed Nov 8 19:18:37 2023 -0500
+
+    Arreglo de estilos
+
+[33mcommit d324eaeabe4f488fadd427db048bdc68bfa40c44[m
+Author: Helmut Romero <helmutramirez8@gmail.com>
+Date:   Wed Nov 8 19:09:54 2023 -0500
+
+    Agregando modificacion
+
+[33mcommit d3c579a9f0ceb00adf3f67d2391587efb4f3e9d9[m
+Author: Helmut Romero <helmutramirez8@gmail.com>
+Date:   Wed Nov 8 18:55:55 2023 -0500
+
+    Creando nuevo repositorio

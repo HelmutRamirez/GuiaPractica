@@ -11,7 +11,7 @@ function ejecutar_consulta($laconsulta){
       
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" href="estilos.css?ver=1.3">
+            <link rel="stylesheet" href="../estiloss/estilos.css?ver=1.1">
             <title>Resultado</title>
          </head> 
          <body>

@@ -13,7 +13,7 @@ function ejecutar_consulta($laconsulta){
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="estilos.css?ver=1.2">
             <title>Document</title>
-         </head>
+         </head> 
          <body>
          <?php
            

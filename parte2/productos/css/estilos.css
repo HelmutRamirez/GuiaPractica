@@ -1,0 +1,88 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+body{
+    background-color: rgba(178, 39, 21, 0.912)
+}
+.Titulo{
+    background-color: #45ACA4;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    border-bottom: dotted black;
+    width: 50%;
+    margin-top: 2%;
+    margin-bottom: 50px;
+    box-shadow: 0 1px 30px 0 #45ACA4;
+    border-radius: 20px;
+}
+.content{
+    max-width:  640px;
+    margin: 0 auto;
+    padding: 55px;
+    box-sizing: border-box;
+    background-color: #45ACA4;
+    font: bold 14px sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 1px 40px 0 #45ACA4;
+}
+.form-row
+{
+    text-align: left;
+    margin-bottom: 22px;
+}
+.tituloForm{
+    display: inline-block;
+    box-sizing: border-box;
+    color: rgba(178, 39, 21, 0.912);
+    font-size: 20px;
+    padding: 0 10px 15px;
+    border-bottom: 2px solid ;
+    margin: 0;
+    margin-bottom: 30px;
+} 
+.form-reg .form-row label
+{display: inline-block;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    width: 180px;
+    text-align: left;
+    vertical-align: top;
+    padding: 12px 25px;
+
+}
+.form-reg input[type=text], #importado{
+    color: #45ACA4;
+    box-sizing: border-box;
+    width: 240px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.88);
+    padding: 12px;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+}
+.form-reg input[type=submit],
+.form-reg input[type=reset]{
+    
+    border-radius: 10px;
+    background-color: #e85959;
+    color: #080000;
+    font-weight: bold;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.88);
+    padding: 14px 22px;
+    border: 0;
+    margin: 40px 183px 0;
+}
+@MEDIA(max-width: 500px){
+    .form-reg{
+        padding: 30px;
+        max-width: 300px;
+    }
+    .form-reg ,.form-row{
+        max-width: 300px;
+        margin: 25px auto;
+        text-align: left;
+    }
+
+}

@@ -9,7 +9,7 @@
 </head>
 <body>
     
-    
+
         <?php
         if(isset($_POST["enviar"])){
             try {
@@ -20,15 +20,15 @@
 
                 $resultado=$base->prepare ($sql);
 
-                $login=htmlentities(addslashes($_POST["correo"]));
+                $corre=htmlentities(addslashes($_POST["correo"]));
 
-                $password=htmlentities(addslashes($_POST["pass"])); 
+                $contra=htmlentities(addslashes($_POST["pass"])); 
 
-                $resultado->bindValue(":login", $login);
+                $resultado->bindValue(":login", $corre);
 
             // Spassword-password_hash($contraseña->getClave(), PASSWORD_DEFAULT);
 
-                $resultado->bindValue(":password",$password);
+                $resultado->bindValue(":password",$contra);
 
                 $resultado->execute();
 
@@ -42,7 +42,7 @@
                 session_start();
 
                 $_SESSION["usuario"]=$_POST["correo"];
-               //header("location:pag_inicio.php");
+                //header("location:pag_inicio.php");
              }
             else{ 
                 //header("location:form_acces.php");
@@ -53,24 +53,35 @@
             die("Error:". $e->getMessage());}
             }
         
-
-        ?>
+        else{
+            ?>
         <h1 class="titulo">Acceso al sistema</h1>
-     <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
+        <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post"> 
       <div class="conent">  
         
         <div class="contene">
-        <label for="">Usuario</label>
+        <label >Usuario</label>
         <input type="email" name="correo"><br>
         </div>
+
         <div class="contene">
-        <label for="">Contraseña</label>
+        <label >Contraseña</label>
         <input type="password" name="pass">
         </div>
-        <DIV class="boton">
+
+        <div class="contene">
+        <input type="checkbox" name="recordar">
+        <label >Recordarme en este equipo</label>
+        
+        </div>
+
+        <div class="boton">
         <input type="submit" name="enviar" value="Ingresar">
-        </DIV>
+        </div>
         </form>
     </div>
 </body>
 </html>
+<?php
+        }
+?>

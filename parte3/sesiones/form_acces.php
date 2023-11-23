@@ -40,9 +40,11 @@
             //se inicia la sesion si el usuario esta registrado
 
                 session_start();
-
+                $autenticar1=true;
                 $_SESSION["usuario"]=$_POST["correo"];
-                //header("location:pag_inicio.php");
+                $detino="pag_inicio.php?autenticar=".urldecode($autenticar1);
+                header("location:".$detino);
+                
              }
             else{ 
                 //header("location:form_acces.php");

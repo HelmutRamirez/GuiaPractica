@@ -1,0 +1,58 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+section{
+    text-align: center;
+    color: yellow;
+    padding-top: 10%;
+    font-size: 50px;
+}
+body{
+    background-color: rgba(176, 105, 96, 0.912);
+    text-align: center;
+}
+.conent{
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    
+    text-align: center;
+}
+.contene{
+    padding-top: 5PX;
+    width: 500PX;
+ 
+    text-align: left;
+    padding-bottom: 5px;
+}
+.boton{
+    padding-top: 10px;
+    width: 500px;
+    
+    
+}
+.titulo{
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 50px;
+}
+
+form input[type="submit"]{
+    
+    margin-left: 10px;
+    text-decoration: none;
+    background-color: rgb(74, 153, 95);
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    border: 1px solid #d7d7d7;
+    border-radius: 10px;
+}
+form input[type="password"],form input[type="email"]{
+    display: table-cell;
+    width: 300px;
+    height: 20px;
+    border: 1px solid #d7d7d7;
+    border-radius: 3px;
+}

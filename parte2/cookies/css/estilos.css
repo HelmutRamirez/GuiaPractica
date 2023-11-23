@@ -1,0 +1,23 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+body{
+    background-color: rgba(178, 39, 21, 0.912)
+}
+section{
+    text-align: center;
+    color: yellow;
+    padding-top: 10%;
+    font-size: 50px;
+}
+.cuerpo{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(253, 195, 137);
+}
+img{
+    width: 500px;
+}

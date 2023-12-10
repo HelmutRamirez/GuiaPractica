@@ -18,6 +18,7 @@
             <li><a href="pag_inicio.php">Inicio</a></li>
             <li><a href="#">Nosotros</a></li>
             <li><a href="#">Contacto</a></li>
+            <li><a href="eliminar_cookie.php">Eliminar cookie</a></li>
 
         </ul>
     </nav>

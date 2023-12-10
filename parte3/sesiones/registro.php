@@ -1,5 +1,3 @@
-
-
 <html>
             <head>
             <title>REGISTRO USUARIO</title>
@@ -30,10 +28,29 @@
             <?php
 
             $error_encontrado="";
+            $vali="";
             require_once("validacion_contra.php");
             if(isset($_POST["enviar"])){
                 if(validar_clave($_POST['Contra'],$error_encontrado)){
-                    echo "Contraseña segura";
+                    echo "Contraseña segura"."<br>";
+                    $base= new PDO("mysql:host=localhost; dbname=datos_usuario", "root","");
+                    $base->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                
+                    $sql="INSERT into datos_usuarioo (usuario,password1) values (:login,:password)";
+                    $resultado=$base->prepare ($sql);
+
+                    $corre=htmlentities(addslashes($_POST['correo']));
+                    $contra=htmlentities(addslashes($_POST['Contra'])); 
+
+                    $resultado->bindValue(":login", $corre);
+                // Spassword-password_hash($contraseña->getClave(), PASSWORD_DEFAULT);
+                    
+                    $resultado->bindValue(":password",$contra);
+                    $resultado->execute();
+
+    
+                    echo "Usuario creado";
+                   
                 }else{
                     echo "Contraseña insegura: ".$error_encontrado;
                 }
@@ -42,7 +59,7 @@
             ?>
              <input type="submit" value="Enviar" name="enviar"/>
             </form>
-    
+            
             </body>
             </html>
 
